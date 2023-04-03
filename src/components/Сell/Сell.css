@@ -1,0 +1,19 @@
+.Cell__white,
+.Cell__black {
+    width: 35px;
+    height: 35px;
+}
+
+.Cell__white {
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.Cell__black {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border: 1px solid white;
+}

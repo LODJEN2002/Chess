@@ -1,0 +1,28 @@
+.App {
+  display: flex;
+  padding-top: 150px;
+  flex-direction: column;
+  align-items: center;
+  background-color: blueviolet;
+  height: 700px;
+}
+
+.Line {
+  display: flex;
+}
+
+.Cell__white,
+.Cell__black {
+    width: 35px;
+    height: 35px;
+}
+
+.Cell__white {
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.Cell__black {
+    background-color: black;
+    border: 1px solid white;
+}
